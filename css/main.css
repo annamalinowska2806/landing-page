@@ -1,0 +1,417 @@
+body {
+  background-color:  #f3f3f3;
+  font-family: 'Lato', sans-serif;
+}
+
+h5 {
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.2;
+}
+
+.fa {
+  font-size: 20px;
+}
+
+button.btn-prev {
+  border-color: none;
+  border-width: 0;
+  padding: 1px 7px 2px;
+  background: none;
+}
+
+label {
+  text-align: left;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+label.label-agreements {
+  font-size: 12px;
+}
+
+label span {
+  font-size: 14px;
+}
+
+input {
+  font-weight: 300;
+  margin-right: 10px;
+}
+.form-control:focus {
+  box-shadow: 0;
+}
+
+.outer {
+  height: 100vh;
+  display: table;
+  width: 100%;
+}
+
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+
+.input-field.col.s12 {
+  margin-bottom: 15px;
+}
+
+.input-field.col.s12:first-child {
+  margin-top: 15px;
+}
+
+.inner h2 {
+  color: #2396c6;
+  text-transform: uppercase;
+}
+
+.inner p {
+  font-size: 34px;
+  font-style: italic;
+  color: #303234;
+}
+
+.inner .form-wrap .form-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner .form-wrap {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  display: table;
+  height: 65vh;
+}
+
+.inner .inner-text {
+  height: 80vh;
+  position: relative;
+}
+
+.inner .inner-text h2 {
+  font-size: 44px;
+}
+
+.inner .form-wrap span {
+  text-transform: uppercase;
+}
+
+.text-center.btn-wrap {
+  margin-top: 30px;
+}
+
+.button.next,
+button.button.btn-submit {
+  border-radius: 30px;
+  padding: 10px 130px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.custom-control.custom-radio {
+  margin-bottom: 15px;
+}
+
+.custom-control.custom-radio label {
+  padding-top: 0;
+}
+
+button:focus,
+button:active {
+  outline: 0px dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+.button.next:hover,
+button.button.btn-submit {
+  text-decoration: none;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+  font-size: 16px;
+  display: block;
+  line-height: 22px;
+  padding: 14px 16px;
+}
+
+#krok-1 input {
+  padding-left: 10px;
+}
+
+select.custom-select {
+  border-radius: 20px;
+  background: #f3f3f3;
+  text-transform: uppercase;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+input,
+.form-control {
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.checkbox-wrap input,
+.agreements {
+  height: auto;
+}
+
+label {
+  padding-left: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.custom-control.custom-radio {
+  position: relative;
+}
+
+.custom-control.custom-radio label.error {
+  position: absolute;
+  bottom: -20px;
+  left: 23px;
+  width: 100%;
+}
+
+label.error {
+  position: absolute;
+  bottom: -30px;
+  left: 15px;
+  width: 100%;
+}
+
+.inner p.small-text {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+#krok-4 [type="checkbox"]+span:not(.lever) {
+  font-size: 10px;
+  line-height: 15px;
+  height: 15px;
+}
+
+#krok-4 label span {
+  font-size: 10px;
+}
+
+.header-mobile {
+  display: none;
+}
+
+.media-mobile {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.no-js .multi-step-form fieldset button,
+.no-js .multi-step-form h2,
+.multi-step-form.edit-form fieldset button,
+.multi-step-form.edit-form h2 {
+  display: none;
+}
+
+.no-js .multi-step-form fieldset,
+.multi-step-form.edit-form fieldset {
+  display: block;
+}
+
+.no-js .multi-step-form [type="submit"],
+.no-js .multi-step-form [type="reset"],
+.multi-step-form.edit-form [type="submit"],
+.multi-step-form.edit-form [type="reset"] {
+  display: inline-block;
+}
+
+.no-js .multi-step-form .steps,
+.multi-step-form.edit-form .steps {
+  display: none;
+}
+
+.multi-step-form fieldset {
+  display: none;
+}
+
+.multi-step-form fieldset:first-of-type {
+  display: block;
+}
+
+.multi-step-form fieldset.hidden {
+  display: none;
+}
+
+.multi-step-form fieldset.visible {
+  display: block;
+}
+
+.multi-step-form .steps button {
+  border: 0;
+}
+
+.multi-step-form .steps [disabled] {
+  background: none;
+}
+
+.multi-step-form .steps .active {
+  background: #eee;
+}
+
+.inner .modal-body p {
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+label .optional {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .inner .inner-text {
+    height: 65vh;
+    position: relative;
+  }
+
+}
+
+@media only screen and (min-width: 993px) {
+
+  .container {
+    width: 85%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .select-wrapper input.select-dropdown {
+    height: 2rem;
+    font-size: 13px;
+  }
+
+  h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  h2.header-mobile {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  a.button.next,
+  button.button.btn-submit {
+    border-radius: 30px;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .inner {
+    vertical-align: top;
+  }
+
+  .inner .form-wrap {
+    padding: 10px 10px 5px 10px;
+    margin: 0 auto;
+  }
+
+  .inner .form-wrap p {
+    margin-bottom: 0;
+  }
+
+  [type="checkbox"]+span:not(.lever) {
+    font-size: 12px;
+  }
+
+  .inner p {
+    font-size: 14px;
+  }
+
+  .form-wrap .text-center {
+    margin: 10px 0;
+  }
+
+  .form-wrap .input-field {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .dropdown-content li>a,
+  .dropdown-content li>span {
+    font-size: 12px;
+  }
+
+  .media-mobile {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .media {
+    margin: 20px 0;
+  }
+
+  .media img {
+    width: 38px;
+  }
+
+  .media-body p {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .form-wrap .text-center.btn-wrap {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  .container {
+      width: 100%;
+  }
+
+}

@@ -1,0 +1,87 @@
+body {
+  background-color:  #f3f3f3;
+  font-family: 'Lato', sans-serif;
+}
+
+body.lp-hand {
+  background-image: url('../img/hand.png');
+  background-size: cover;
+}
+
+.inner h2 {
+  color: #2396c6;
+}
+
+.fa {
+  color: #2396c6;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #2396c6;
+  background-color: #2396c6;
+}
+
+.inner p {
+  color: #303234;
+}
+
+.inner .form-wrap {
+  background: #fff;
+  -webkit-box-shadow: 3px 3px 17px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 17px -10px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 17px -10px rgba(0,0,0,0.75);
+}
+
+.button.next,
+button.button.btn-submit {
+  background-color: #2396c6;
+  color: #fff;
+}
+
+a.button.next:hover,
+button.button.btn-submit {
+  color: #fff;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+  color: #2396c6;
+}
+
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:after {
+  background-color: #2396c6;
+}
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:before,
+[type="radio"].with-gap:checked+span:after {
+  border: 2px solid #2396c6;
+}
+
+[type="checkbox"]:checked+span:not(.lever):before {
+  border-right: 2px solid #2396c6;
+  border-bottom: 2px solid #2396c6;
+}
+
+.girl-img {
+  position: absolute;
+  right: -45px;
+  bottom: 50%;
+  width: 228px;
+  z-index: 99;
+  margin-bottom: -285px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  section {
+    background-size: cover;
+  }
+
+  a.button.next,
+  button.button.btn-submit {
+    background-color: #2396c6;
+    color: #fff;
+  }
+
+}

@@ -1,0 +1,114 @@
+body.lp-hand {
+  background-image: url(../img/bg_reka.png);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+section .col-lg-4 {
+  padding-left: 0;
+}
+
+.hand-bg {
+  background-image: url(../img/reka.png);
+  background-position: center right -130px;
+  background-repeat: no-repeat;
+}
+
+.tu-img {
+  position: absolute;
+  bottom: 0;
+  box-shadow: 10px 9px 18px -9px rgba(0,0,0,0.75);
+  border-radius: 20px;
+}
+
+.fa {
+  color: #663399;
+}
+
+.inner h2 {
+  color: #663399;
+}
+
+.inner p {
+  color: #303234;
+}
+
+.inner .form-wrap {
+  background: #fff;
+  box-shadow: 3px 3px 17px -10px rgba(0,0,0,0.75);
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #663399;
+  background-color: #663399;
+}
+
+button.next,
+button.btn-submit {
+  background-color: #663399;
+  color: #fff;
+}
+
+button.next:hover,
+button.btn-submit {
+  color: #fff;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+  color: #663399;
+}
+
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:after {
+  background-color: #663399;
+}
+
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:before,
+[type="radio"].with-gap:checked+span:after {
+  border: 2px solid #663399;
+}
+
+[type="checkbox"]:checked+span:not(.lever):before {
+  border-right: 2px solid #663399;
+  border-bottom: 2px solid #663399;
+}
+
+#krok-1 input {
+  background-color: #f3f3f3;
+}
+
+#krok-4 input  {
+  background-color: #f3f3f3;
+}
+
+@media only screen and (max-width: 768px) {
+
+  body.lp-hand {
+    overflow: hidden;
+  }
+
+  section {
+    background-image: url('../img/reka-bg.jpg');
+    background-size: cover;
+  }
+
+  section .col-lg-4  {
+    padding-left: 15px;
+  }
+
+  h2.header-mobile {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  button.next,
+  button.btn-submit {
+    background-color: #663399;
+    color: #fff;
+  }
+
+}
